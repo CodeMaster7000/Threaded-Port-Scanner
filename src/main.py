@@ -1,7 +1,7 @@
+from queue import Queue
+import socket
 import threading 
-from queue import Queue 
 import time 
-import socket 
 
 print_lock = threading.Lock() 
 target = 'localhost'
